@@ -96,7 +96,7 @@
         <div class="buttons">
             <button class="button" onclick="addChatMessage('🔶 Pełną ofertę znajdziesz na kanale TeleGuard podanym niżej')">📜Oferta</button>
             <button class="button" onclick="addChatMessage('🔶 TeleGuard: S9MDYLZ2M 🔹 SIGNAL: @purefedor.53')">📞Kontakt</button>
-            <button class="button" onclick="addChatMessage('Opinie klientów')">📚Opinie klientów</button>
+            <button class="button" onclick="addChatMessage('🔶 Opinie klientów')">📚Opinie klientów</button>
             <button class="button" onclick="addChatMessage('🔶 Wybierz produkty z naszej oferty a nastepnie napisz do nas wybrany produkt oraz ilość. Podaj kod paczkomatu. Płatność: Blik, Crypto. Paczkę tworzymy na nasze konto InPost, a Ty otrzymujesz tylko kod QR do odbioru paczki.')">📦Jak złożyć zamówienie?</button>
             <button class="button" onclick="addChatMessage('🔶 Płatność: Blik, Crypto.')">💵Metody płatności</button>
             <button class="button" onclick="addChatMessage('🔶 Jeśli zamówisz do godziny 13:00, Twoja paczka na 100% zostanie wysłana tego samego dnia. 🚀')">📲Jaki jest czas dostawy?</button>

@@ -1,5 +1,6 @@
-<html lang="pl">
 
+    <html lang="pl">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -85,8 +86,7 @@
             }
         }
     </style>
-</head>
-<body>
+    <body>
     <div class="container">
         <h1>WITAJ NA STRONIE 🌿PURE LEAF!</h1>
         <p>Zapamiętaj link tej strony, dzięki temu nigdy nie stracisz z nami kontaktu. Wszystkie potrzebne informacje znajdziesz pod odpowiednimi przyciskami poniżej.</p>

@@ -10,21 +10,25 @@
             color: white;
             text-align: center;
             padding: 20px;
+            font-size: 1rem;
         }
+
         .container {
-            max-width: 600px;
+            max-width: 90%;
             margin: 0 auto;
             background-color: #282828;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+
         .buttons {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
             gap: 10px;
             margin-top: 20px;
         }
+
         .button {
             padding: 8px;
             background-color: #4CAF50;
@@ -35,9 +39,11 @@
             font-size: 14px;
             text-align: center;
         }
+
         .button:hover {
             background-color: #45a049;
         }
+
         .chat-box {
             margin-top: 20px;
             background-color: #333;
@@ -47,6 +53,7 @@
             overflow-y: auto;
             box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2);
         }
+
         .chat-message {
             background-color: #4CAF50;
             color: white;
@@ -54,6 +61,28 @@
             margin: 5px 0;
             border-radius: 5px;
             text-align: left;
+        }
+
+        /* Media queries */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .button {
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .chat-box {
+                max-height: 300px;
+            }
         }
     </style>
 </head>
